@@ -1,7 +1,10 @@
 <template>
-  <div>
-    <h1>Welcome to My Page</h1>
-    <p>This is a simple page using Vue.js.</p>
+  <div class="p-6">
+    <h1 class="text-2xl font-bold ml-4 mb-4">Продукти</h1>
+    <ProductTable />
   </div>
 </template>
 
+<script setup>
+import ProductTable from '@/components/ProductTable.vue'
+</script>
